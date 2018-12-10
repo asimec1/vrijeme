@@ -1,0 +1,36 @@
+body{
+	background-image: url("img/php_background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 400$%;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+form{
+	position: center;
+	left: 50%;
+	top: 50%;
+}
+input[type=submit] {
+    background-color: #45a049;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+	font-family: 'Oswald', sans-serif;
+}
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=text], input[type=number] {
+    width: 40%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	
