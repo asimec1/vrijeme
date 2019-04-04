@@ -17,11 +17,11 @@
 		$pre=$_POST['pre'];
 		if(($t >= "8" and $t <= "11") and ($_ime != "" or $pre != "")){
 			print"<p> Dobro jutro ".$_ime." ".$pre."</p>";}
-		if(($t >= "12" and $t <= "18") and ($_ime != "" or $pre != "")){
+		else if(($t >= "12" and $t <= "18") and ($_ime != "" or $pre != "")){
 			print"<p> Dobar dan ".$_ime." ".$pre."</p>";}
-		if(($t >= "19" and $t <= "7") and ($_ime != "" or $pre != "")){
+		else if(($t >= "19" and $t <= "7") and ($_ime != "" or $pre != "")){
 			print"<p> Dobro večer ".$_ime." ".$pre."</p>";}
-		if($_ime == "" or $pre == ""){
+		else ($_ime == "" or $pre == ""){
 			print"<p> Upišite ime i prezime!</p>";}
 		print '<a href="index.html">Natrag</a>';
 	?>
